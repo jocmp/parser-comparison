@@ -1,0 +1,21 @@
+{
+  "name": "parser-comparison",
+  "version": "1.0.0",
+  "description": "Compare Postlight Parser vs defuddle",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@postlight/parser": "^2.2.3",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^3.3.2",
+    "defuddle": "file:../defuddle"
+  },
+  "keywords": ["parser", "postlight", "defuddle", "comparison"],
+  "author": "",
+  "license": "MIT"
+}
